@@ -49,11 +49,11 @@ const CaptainLogin = () => {
             placeholder="password"
             />
             <button className="bg-black text-white w-full mt-6 p-2 rounded-md">Login</button>
-            <p className="text-center mb-3 mt-3">Join the fleet... <Link to = {'/captain-signup'} className="text-blue-800">Join as a Captain</Link></p>
+            <p className="text-center mb-3 mt-3">Want to join the fleet? <Link to = {'/captain-signup'} className="text-blue-800 ml-1">Register</Link></p>
         </form>
         </div>
         <div>
-        <Link to={'/login'} className="bg-[#10b461] flex items-center justify-center w-full text-center text-white mt-4 mb-6 p-2 rounded-md">Sign in as User</Link>
+        <Link to={'/login'} className="bg-[#b65e20] flex items-center justify-center w-full text-center text-white mt-4 mb-6 p-2 rounded-md">Sign in as User</Link>
 
         </div>
     </div>
